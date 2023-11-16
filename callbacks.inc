@@ -1,5 +1,5 @@
 /*
-	New SA-MP callbacks by Emmet_
+	New SA-MP callbacks by Emmet_ and refactoring by EOS
 
 	Description:
 	  An include which offers a wide selection of callbacks for scripters to use.
@@ -8,7 +8,7 @@
  	  01/26/2014 @ 11:58 AM.
 
 	Last Update:
-	  02/29/2016 @ 12:00 AM
+	  16/11/2023 @ 10:42 AM
 
 	Callbacks:
 	    OnPlayerPause(playerid)
@@ -150,7 +150,7 @@
 #define CB_ON_VEHICLE_CREATED
 
 #if !defined POTENTIAL_CRASH_DAMAGE
-	#define POTENTIAL_CRASH_DAMAGE 		40.0 // 55
+	#define POTENTIAL_CRASH_DAMAGE 		55.0
 #endif
 
 #if !defined MAX_ACCUMULATED_SHOTS
